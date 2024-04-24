@@ -1,0 +1,1 @@
+localStorage.getItem("post", JSON.parse(post))
