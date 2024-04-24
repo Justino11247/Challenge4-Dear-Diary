@@ -1,0 +1,17 @@
+body {
+  display: block;
+}
+
+header{
+  margin: 50px;
+  justify-content: center;
+}
+
+#theme-switcher {
+  float: right;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}

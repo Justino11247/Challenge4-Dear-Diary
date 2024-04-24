@@ -1,0 +1,22 @@
+/* Light Mode */
+.light {
+  background-color: #f0ead6;
+  color: black;
+}
+
+.light li {
+  color: black;
+}
+
+
+/* Dark Mode */
+.dark {
+  background-color:#243447;
+  color: #bebebe
+}
+
+.dark li {
+  color: #bebebe;
+}
+
+
