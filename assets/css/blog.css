@@ -1,4 +1,6 @@
-
+header {
+  margin-bottom: 60px;
+}
 
 .btns-section {
   float: right;
@@ -12,4 +14,30 @@ footer {
   bottom: 0;
   border-top: 10px;
   width: auto;
+}
+
+article {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-top: 30px;
+}
+
+h3 {
+  width: 18%;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+
+p {
+  width: 60%;
+  margin-right: 40px;
+}
+
+h5 {
+  opacity: 50%;
+  width: 15%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 47px;
 }

@@ -22,6 +22,9 @@ header {
   color: black;
 }
 
+.light article {
+  border: 2px solid #970505;
+}
 
 /* Dark Mode */
 .dark {
@@ -31,6 +34,10 @@ header {
 
 .dark li {
   color: #c8c3c3;
+}
+
+.dark article {
+  border: 2px solid goldenrod
 }
 
 
