@@ -14,4 +14,21 @@ submitPost.addEventListener('click', function (event) {
   };
 console.log(post)
   localStorage.setItem("post", JSON.stringify(post))
+  window.location.href = 'blog.html';
 });
+
+/* const submitButton = document.getElementById("submit");
+    submitButton.addEventListener('click', function (event) {
+      event.preventDefault();
+
+      const username = document.getElementById('username').value;
+      const title = document.getElementById('title').value;
+      const content = document.getElementById('content').value;
+
+      localStorage.setItem('username', username);
+      localStorage.setItem('title', title);
+      localStorage.setItem('content', content);
+      
+
+      window.location.href = 'blog.html';
+    }); */

@@ -1,17 +1,15 @@
-body {
-  display: block;
-}
 
-header{
-  margin: 50px;
-  justify-content: center;
-}
 
-#theme-switcher {
+.btns-section {
   float: right;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer {
   position: fixed;
   bottom: 0;
+  border-top: 10px;
+  width: auto;
 }

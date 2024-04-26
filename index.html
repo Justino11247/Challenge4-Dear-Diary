@@ -11,32 +11,34 @@
 
 <body class="light">
   <header>
-    <button type="checkbox" id="theme-switcher">&#127773;</button>
+      Dear Diary
+    <button type="checkbox" id="theme-switcher" class="btns">&#127773;</button>
   </header>
-  <section id="image">
-    <img src="./assets/images/pngtree-circle-gradient-halftone-png-image_9194589.png" alt="A multi-colored circle that goes from most visible to least visible from the edge to the center.">
+  <section id="image"  class="form-img">
+    <img src="./assets/images/pngimg.com - book_PNG51024.png" alt="A multi-colored circle that goes from most visible to least visible from the edge to the center.">
+    <div class="img-txt">Whats on your mind?</div>
   </section>
-  <section id="form">
+  <section id="form" class="form-img">
     <form>
       <ul>
-        <h1>Whats on your mind?</h1>
+        <h1>Tell me Everything!</h1>
         <li>
-          <label for="username">Username</label>
+          <label for="username">Tell me your name.</label>
         </li>
         <li>
-          <input type="text" id="username" name="username">
+          <input type="text" id="username" name="username" placeholder="Name">
         </li>
         <li>
-          <label for="title">Title</label>
+          <label for="title">Today's topic is?</label>
         </li>
         <li>
-          <input type="text" id="title" name="title">
+          <input type="text" id="title" name="title" placeholder="Topic">
         </li>
         <li>
-          <label for="content">Content</label>
+          <label for="content">What happened?</label>
         </li>
         <li>
-          <textarea id="content" name="content" rows="10" cols="30"></textarea>
+          <textarea id="content" name="content" rows="10" cols="30" placeholder="Story"></textarea>
         </li>
         <button id="submit">Submit</button>
       </ul>
@@ -45,6 +47,7 @@
   </section>
   <script src="./assets/js/logic.js"></script>
   <script src="./assets/js/form.js"></script>
+  
   
 </body>
 </html>
